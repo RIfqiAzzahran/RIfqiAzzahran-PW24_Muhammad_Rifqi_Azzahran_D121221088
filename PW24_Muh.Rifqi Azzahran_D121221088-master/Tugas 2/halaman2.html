@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <div class="container wrapper">    
+    <div id="top">
+      <h1>Muh.Rifqi Azzahran D121221088</h1>
+      <p>Use the menu to select different Stylesheets</p>
+    </div>
+    <div class="wrapper">
+      <div id="menubar">
+        <ul id="menulist">
+          <li class="menuitem">
+            <a href="./halaman1.html">Stylesheet 1</a>
+            </li>
+            <li class="menuitem">
+              <a href="./halaman2.html">Stylesheet 2</a>
+            </li>
+            <li class="menuitem">
+              <a href="./halaman3.html">Stylesheet 3</a>
+            </li>
+            <li class="menuitem">
+              <a href="./halaman4.html">Stylesheet 4</a>
+            <li class="menuitem">
+              <a href="./halaman5.html">No Stylesheet</a>
+              </li>
+            </ul>
+          </div>
+          <div id="main">
+            <h1>Same Page Different Stylesheets</h1>
+            <p>
+              "This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one the following links:"
+              <br>
+              <a href="./halaman1.html" onclick="reStyle(0);return false">Stylesheet1</a>
+              , 
+              <a href="./halaman2.html" onclick="reStyle(1);return false">Stylesheet2</a>
+              , 
+              <a href="./halaman3.html" onclick="reStyle(2);return false">Stylesheet3</a>
+              ,
+              <a href="./halaman4.html" onclick="reStyle(3);return false">Stylesheet4.</a>
+          </p>
+          <h2>No Styles</h2>
+          <p>
+              "This page uses DIV elements to group different sections of the HTML page. Click here to see how page looks like with no stylesheet:"
+              <br>
+              <a href="./halaman5.html" onclick="noStyle();return false">No Stylesheet1.</a>
+          </p>
+          </div>
+          <div id="sidebar">
+            <h3>Side-Bar</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo sit amet voluptatem ipsa sed quia soluta aliquam enim tempora.
+            </p>
+          </div>
+        </div>
+        <div id="bottom">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ipsa architecto aliquid nisi id hic optio omnis ratione at officiis?
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
